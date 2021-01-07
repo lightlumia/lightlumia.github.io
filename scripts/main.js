@@ -30,7 +30,7 @@ if(!localStorage.getItem('name')){
 }
 else{
 	let storedName = localStorage.getItem('name');
-	myHeading.textContent = 'Mozilla is cool, '+ storedName;
+	myHeading.textContent = 'Mozilla is topzera, '+ storedName;
 }
 
 myButton.onclick = function() {
