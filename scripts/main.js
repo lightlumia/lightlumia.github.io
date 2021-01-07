@@ -21,7 +21,7 @@ let myName = prompt('Please enter your name.');
   }
   else{
 	localStorage.setItem('name', myName);
-	myHeading.textContent = 'Mozilla is cool, ' + myName;
+	myHeading.textContent = 'Mozilla is topzera, ' + myName;
   }
 }
 
