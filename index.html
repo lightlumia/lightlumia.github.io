@@ -1,28 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 	<head>
 		<meta charset="utf-8">
-	<link href="styles/style.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Inconsolata&display=swap" rel="stylesheet"> 
-		<title>My test page</title>
+		<meta name="author" content="Just Me">
+		<title>Responsive Images</title>
+		<link href="styles/style.css" rel="stylesheet">
 	</head>
 	<body>
-		<h1>Lovely cute girl</h1>
-		<img id="anime_01" src="images/lovu_02.png" alt="luving anime gurl">
-		<p>	O anime narra as desventuras de duas meninas profanas de 14 anos chamadas Popuko e Pipimi, que enfrentam uma variedade de situações corriqueiras e bizarras e respondem de maneiras igualmente bizarras e exageradas.</p>
-		<p id="text-pop">Pop Team Epic (ポプテピピック Poputepipikku?) é uma</p>
-		<ul>
-			<li>webcomic
-			<li>yonkoma de humor
-			<li>absurdo
-			<li>e mangá digital
-		</ul>
-		<p>japonês escrito e ilustrado por Bkub Okawa.</p>
-		<a title="My Anime List" target="_blank" href="https://myanimelist.net/anime/35330/Poputepipikku">Página no MAL</a>
-		<a href="file:///C:/Users/Alex/Projetos/web-projects/test-site/index.html" title="Our Home">Home</a>
-		<input type="text">
-		<input type="text" disabled>
-		<button>Change user</button>
-		<script src="scripts/main.js"></script>
+	
+	<img srcset="images/ifpe-480px.png 480w,
+				images/ifpe-800px.png 800w,
+				images/ifpe-1200px.png 1200w"
+				sizes="(max-width: 600px) 480px,
+						(max-width: 900px) 800px,
+						1200px"
+				src="images/ifpe-1200px.png"
+				alt="Cool Guy">
+	</picture>
 	</body>
 </html>
